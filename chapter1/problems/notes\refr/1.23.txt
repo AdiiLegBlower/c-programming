@@ -1,0 +1,18 @@
+What does the program want ? :- 
+1. Reading the the input 
+2. Deciding if the upcoming texts come inside a comment
+    a. Single line comment " // " ends as the '\n'
+    b. multi line comments " /* " ends as the " *\ "
+3. If the input is outside comment print it else dont make any action until end of comment is signled.
+4. for first ' / ' dont print immedietly only print when the trailing character doest initiate a comment.
+5. Handle Strings smartly.
+
+
+====================PART1====================================
+Deal with single line comments:
+Starts at // and ends at ' \n '
+
+
+====================PART2====================================
+Deal with multiline comments
+introduce a second variable to idetify the type of comment for appropriate ending
